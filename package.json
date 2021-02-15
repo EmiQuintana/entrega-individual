@@ -1,0 +1,19 @@
+{
+  "name": "individual-nota",
+  "version": "1.0.0",
+  "description": "- Como usuario quiero tener la posibilidad de **crear una nueva nota** (vista *index*)\r - Como usuario quiero poder **ver todas las notas que existan en mi base de datos** (vista *index*)\r - Como usuario quiero poder **editar una nota** en un formulario (al hacer clic en el botoncito izquierdo al pie de cada nota deben renderizar la vista *detail* con los datos de la nota que quieren editar)\r - Como usuario quiero poder **eliminar una nota** (al hacer clic en el botoncito derecho al pie de cada nota)",
+  "main": "/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
